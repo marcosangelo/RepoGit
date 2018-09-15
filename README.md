@@ -2,4 +2,4 @@
 
 Para Download do APK acesse o link:
 
-https://i.diawi.com/dKk8Nv
+https://a1.files.diawi.com/app-file/YhrBuCAYfMSoEbOPHnf3.apk
