@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:orientation="horizontal"
+    android:weightSum="3.5">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="2"
+        android:weightSum="9"
+        >
+
+        <TextView
+            android:id="@+id/tvRepositotio"
+            style="@style/TextAppearance.AppCompat.Title"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="4"
+            android:lines="2"
+            android:text="Repositorio"
+            android:textColor="@color/blue"
+            android:textSize="18sp" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Body1"
+            android:text="Descrição do repositorio"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:id="@+id/tvDescRepo"
+            android:lines="2"
+            android:layout_weight="3"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="horizontal"
+            android:layout_weight="2">
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@mipmap/ic_fork" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="00000000"
+                android:layout_width="78dp"
+                android:gravity="center_vertical"
+                android:layout_height="match_parent"
+                android:id="@+id/tvFork"
+                android:textColor="@color/yellow"
+                android:maxLength="7"/>
+
+            <ImageView
+                android:id="@+id/imageView4"
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:backgroundTint="@android:color/transparent"
+                android:src="@mipmap/ic_star" />
+
+            <TextView
+                style="@style/Base.TextAppearance.AppCompat.Body1"
+                android:text="00000000"
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/tvStar"
+                android:textColor="@color/yellow"
+                android:maxLength="7"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="right"
+        android:layout_weight="1"
+        >
+
+        <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_gravity="center"
+            app:srcCompat="@drawable/ic_person_black_24dp"
+            android:id="@+id/ivAvatar"
+            />
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Subhead"
+            android:text="Usuario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/tvUser"
+            android:textColor="@color/blue"
+            android:textAlignment="center"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="0.5">
+
+        <ImageButton
+            android:id="@+id/ivFav"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical"
+            android:backgroundTint="@android:color/transparent"
+            android:src="@drawable/ic_favorite_border_black_24dp"
+            android:tint="@android:color/holo_red_dark" />
+    </LinearLayout>
+
+</LinearLayout>

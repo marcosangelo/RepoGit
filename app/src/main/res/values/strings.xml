@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RepoGit</string>
+    <string name="action_settings">Settings</string>
+    <string name="pr_closed">Closed</string>
+    <string name="pr_opened">Opened</string>
+    <string name="no_opened_pull_request_message">No opened Pull Request </string>
+    <string name="no_closed_pull_request_message">No closed Pull Request</string>
+    <string name="connection_fail_message">Connection fail</string>
+    <string name="no_pull_request_message">No Pull Request for the selected Repository</string>
+    <string name="ops_title_message" translatable="false">Ops</string>
+    <string name="back">Back</string>
+</resources>

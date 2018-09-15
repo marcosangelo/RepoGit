@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">RepoGit</string>
+    <string name="pr_closed">Fechados</string>
+    <string name="pr_opened">Abertos</string>
+    <string name="no_opened_pull_request_message">Não há Pull Request abertos</string>
+    <string name="no_closed_pull_request_message">Não há Pull Request fechados</string>
+    <string name="connection_fail_message">Falha na conexão</string>
+    <string name="no_pull_request_message">Não há Pull Request para o repositório selecionado</string>
+    <string name="back">Voltar</string>
+</resources>
